@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /root/
+hooks:
+  ApplicationStop:
+    - location: stop.sh
+  BeforeInstall:
+    - location: setup-prod.sh
+  ApplicationStart:
+    - location: start.sh
