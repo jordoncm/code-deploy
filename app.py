@@ -15,10 +15,17 @@ class IndexHandler(web.RequestHandler):
     self.write(pyinfo.pyinfo())
 
 
+class VersionHandler(web.RequestHandler):
+  """A handler to read and display the value in the version file."""
+  def get(self):
+    self.write(open('version.txt').read())
+
+
 def main():
   """Bootstrap and start the web server listening."""
   application = web.Application([
-    web.url(r'/', IndexHandler)
+    web.url(r'/', IndexHandler),
+    web.url(r'/version', VersionHandler)
   ])
   application.listen(8080)
   ioloop.IOLoop.current().start()
