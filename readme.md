@@ -6,8 +6,8 @@ This is a sample web application to accompany my final project for the fall
 be found at:
   - [Overview](https://docs.google.com/document/d/1fBK0XlMOSPUKj0A_A7F0ltMhFOQsPuRrnjvTVwcsupE/edit?usp=sharing)
   - [Full Report](https://docs.google.com/document/d/1_TWbq4qTdE9hXFvkbkx3vzDC_Y6KTT-3NnX9tM_JckE/edit?usp=sharing)
-  - [Overview Video]()
-  - [Full Video]()
+  - [Overview Video](https://www.youtube.com/watch?v=xYvzqzztk-A)
+  - [Full Video](https://www.youtube.com/watch?v=-S2g_YJp1pQ)
   - [Presentation](https://docs.google.com/presentation/d/1pVbnGVxnQDAPQ_NPb7gX0HpyuLQJ9DTJxM43vxGwhYc/edit?usp=sharing)
 
 Setting Up Development Environment
